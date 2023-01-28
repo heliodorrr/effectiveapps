@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+    <color name="gray_blue">#FF282843</color>
+    <color name="gray_b3">#FFB3B3B3</color>
+    <color name="background">#FFF5F5F5</color>
+    <color name="dark_blue">#FF010035</color>
+    <color name="orange">#FFFF6E4E</color>
+    <color name="light_gray">#FFCCCCCC</color>
+    <color name="searchbar_field">#80010035</color>
+
+</resources>

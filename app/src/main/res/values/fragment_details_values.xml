@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="details_storage_option_chosen">@color/white</color>
+    <color name="details_storage_option_unchosen">#8D8D8D</color>
+    <dimen name="details_image_decoration_offset">70dp</dimen>
+    <dimen name="details_image_h_margin">74dp</dimen>
+    <dimen name="details_star_offset">9dp</dimen>
+</resources>

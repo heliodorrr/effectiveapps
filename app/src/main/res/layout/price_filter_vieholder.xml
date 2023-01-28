@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/filter_error_msg_to"
+        style="@style/FilterOptionSpinnerHeaderStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-12dp"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/filter_price_to"
+        app:layout_constraintStart_toStartOf="@+id/filter_sign_to"
+        app:layout_constraintTop_toBottomOf="@+id/filter_sign_to" />
+
+    <EditText
+        android:id="@+id/filter_price_to"
+        style="@style/FilterOptionSpinnerHeaderStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/filter_price_from"
+        app:layout_constraintTop_toTopOf="@+id/filter_price_from" />
+
+    <EditText
+        android:id="@+id/filter_price_from"
+        style="@style/FilterOptionSpinnerHeaderStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/filter_price_to"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/filter_sign_from" />
+
+    <TextView
+        android:id="@+id/filter_sign_from"
+        style="@style/FilterSpinnerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@null"
+        android:text="Price from"
+        app:layout_constraintStart_toStartOf="@+id/filter_price_from"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/filter_sign_to"
+        style="@style/FilterSpinnerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="@null"
+        android:text="Price to"
+        app:layout_constraintStart_toStartOf="@+id/filter_price_to"
+        app:layout_constraintTop_toTopOf="@+id/filter_sign_from" />
+
+    <TextView
+        android:id="@+id/filter_error_msg_from"
+        style="@style/FilterOptionSpinnerHeaderStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-12dp"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/filter_price_from"
+        app:layout_constraintStart_toStartOf="@+id/filter_sign_from"
+        app:layout_constraintTop_toBottomOf="@+id/filter_sign_from" />
+</androidx.constraintlayout.widget.ConstraintLayout>

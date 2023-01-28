@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FilterOptionSpinnerHeaderStyle">
+        <item name="android:fontFamily">@font/mark_pro_medium</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+    </style>
+
+    <style name="FilterSpinnerStyle">
+        <item name="android:gravity">center|start</item>
+        <item name="spinner_popup_background">@color/background</item>
+        <item name="spinner_popup_elevation">5dp</item>
+        <item name="android:background">@drawable/spinner_frame</item>
+        <item name="spinner_arrow_tint">@color/gray_b3</item>
+        <item name="android:fontFamily">@font/mark_pro_regular</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:paddingStart">14dp</item>
+    </style>
+</resources>

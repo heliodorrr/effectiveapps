@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_elevation">10dp</dimen>
+    <dimen name="icon_corners">10dp</dimen>
+    <dimen name="icon_size">37dp</dimen>
+
+    <dimen name="bottom_card_corners">30dp</dimen>
+
+    <dimen name="fragment_explorer_side_paddings">16dp</dimen>
+    <dimen name="fragment_explorer_searchbar_height">34dp</dimen>
+    <dimen name="fragment_explorer_searchbar_corners">17dp</dimen>
+</resources>

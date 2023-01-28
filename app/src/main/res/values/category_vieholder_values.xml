@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="category_icon_not_chosen">#B3B3C3</color>
+    <color name="category_icon_is_chosen">@color/white</color>
+
+    <color name="category_card_not_chosen">@color/white</color>
+    <color name="category_card_is_chosen">@color/orange</color>
+
+    <dimen name="category_elevation_not_chosen">@dimen/card_elevation</dimen>
+    <dimen name="category_elevation_is_chosen">0dp</dimen>
+    
+    <dimen name="category_item_h_offset">23dp</dimen>
+    <dimen name="category_item_shadow_offset">5dp</dimen>
+</resources>

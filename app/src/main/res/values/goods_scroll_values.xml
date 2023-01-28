@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="goods_scroll_hot_sales_v_margin">8dp</dimen>
+    <dimen name="goods_scroll_best_seller_h_margin">7dp</dimen>
+    <dimen name="goods_scroll_best_seller_v_margin">12dp</dimen>
+    <dimen name="goods_scroll_best_seller_v_edge_margin">22dp</dimen>
+</resources>
